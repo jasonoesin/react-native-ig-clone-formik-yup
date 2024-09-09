@@ -21,19 +21,15 @@ const Header = () => {
         <TouchableOpacity>
           <Image
             style={styles.icon}
-            source={require("../../assets/images/instagram-add-icon.png")}
-            tintColor="white"
-          />
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Image
-            style={styles.icon}
             source={require("../../assets/images/instagram-like-icon.png")}
             tintColor="white"
           />
         </TouchableOpacity>
 
         <TouchableOpacity>
+          <View style={styles.unreadBadge}>
+            <Text style={styles.unreadBadgeText}>11</Text>
+          </View>
           <Image
             style={styles.icon}
             source={require("../../assets/images/instagram-dm-icon.png")}
@@ -65,6 +61,24 @@ const styles = StyleSheet.create({
     height: 20,
     marginLeft: 10,
     resizeMode: "contain",
+  },
+  unreadBadge: {
+    backgroundColor: "#FF3250",
+    position: "absolute",
+    left: 17.5,
+    bottom: 12,
+    width: 25,
+    height: 20,
+    borderRadius: 25,
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 100,
+  },
+
+  unreadBadgeText: {
+    color: "white",
+    textAlign: "center",
+    fontWeight: "600",
   },
 });
 
