@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
 import React from "react";
-import { USERS } from "@/data/users";
+import { USERS } from "@/data/Users";
 
 const Stories = () => {
   return (

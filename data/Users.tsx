@@ -1,42 +1,42 @@
 export const USERS = [
   {
     user: "coolpenguin42",
-    image: "https://picsum.photos/seed/coolpenguin42/200",
+    image: "https://picsum.photos/id/1/200",
   },
   {
     user: "sunnydaisy99",
-    image: "https://picsum.photos/seed/sunnydaisy99/200",
+    image: "https://picsum.photos/id/2/200",
   },
   {
     user: "techninja2023",
-    image: "https://picsum.photos/seed/techninja2023/200",
+    image: "https://picsum.photos/id/3/200",
   },
   {
     user: "stargazer777",
-    image: "https://picsum.photos/seed/stargazer777/200",
+    image: "https://picsum.photos/id/4/200",
   },
   {
     user: "moonlightdreamer",
-    image: "https://picsum.photos/seed/moonlightdreamer/200",
+    image: "https://picsum.photos/id/5/200",
   },
   {
     user: "pixelartist404",
-    image: "https://picsum.photos/seed/pixelartist404/200",
+    image: "https://picsum.photos/id/6/200",
   },
   {
     user: "cosmicexplorer88",
-    image: "https://picsum.photos/seed/cosmicexplorer88/200",
+    image: "https://picsum.photos/id/7/200",
   },
   {
     user: "waverider3000",
-    image: "https://picsum.photos/seed/waverider3000/200",
+    image: "https://picsum.photos/id/8/200",
   },
   {
     user: "mountainhiker21",
-    image: "https://picsum.photos/seed/mountainhiker21/200",
+    image: "https://picsum.photos/id/9/200",
   },
   {
     user: "quantumcoder55",
-    image: "https://picsum.photos/seed/quantumcoder55/200",
+    image: "https://picsum.photos/id/10/200",
   },
 ];
